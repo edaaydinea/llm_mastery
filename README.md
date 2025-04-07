@@ -11,6 +11,7 @@ Learn to master the latest in Large Language Models (LLMs) including ChatGPT, Ge
   - [Day 2: Additional Capabilities of LLMs \& Future Developments](#day-2-additional-capabilities-of-llms--future-developments)
   - [Day 3: Prompt Engineering: Effective Use of LLMs in the Standard Interface](#day-3-prompt-engineering-effective-use-of-llms-in-the-standard-interface)
   - [Day 4: LLM Customization: System Prompts, Memory, RAG \& Creating Expert Models or GPTs](#day-4-llm-customization-system-prompts-memory-rag--creating-expert-models-or-gpts)
+  - [Day 5: Closed-Sourse LLMs: An Overview of Available Models and how to use them](#day-5-closed-sourse-llms-an-overview-of-available-models-and-how-to-use-them)
 
 ## Day 1: How LLMs Work: Parameters, Weights, Inference, Neural Networks and More
 
@@ -30,7 +31,7 @@ Learn to master the latest in Large Language Models (LLMs) including ChatGPT, Ge
 
 **Resources**:
 
-- [day1 notes.ipynb](./week1/notes/day1.ipynb)
+- [day1 notes.ipynb](./notes/day1.ipynb)
 
 ## Day 2: Additional Capabilities of LLMs & Future Developments
 
@@ -49,7 +50,7 @@ Learn to master the latest in Large Language Models (LLMs) including ChatGPT, Ge
 
 **Resources**:
 
-- [day2 notes.ipynb](./week1/notes/day2.ipynb)
+- [day2 notes.ipynb](./notes/day2.ipynb)
 
 ## Day 3: Prompt Engineering: Effective Use of LLMs in the Standard Interface
 
@@ -74,7 +75,7 @@ Learn to master the latest in Large Language Models (LLMs) including ChatGPT, Ge
 
 **Resources**:
 
-- [day3 notes.ipynb](./week1/notes/day3.ipynb)
+- [day3 notes.ipynb](./notes/day3.ipynb)
 
 ## Day 4: LLM Customization: System Prompts, Memory, RAG & Creating Expert Models or GPTs
 
@@ -98,4 +99,21 @@ Learn to master the latest in Large Language Models (LLMs) including ChatGPT, Ge
 
 **Resources**:
 
-- [day4 notes.ipynb](./week1/notes/day4.ipynb)
+- [day4 notes.ipynb](./notes/day4.ipynb)
+
+## Day 5: Closed-Sourse LLMs: An Overview of Available Models and how to use them
+
+**What I did today:**
+
+- Analyzed video transcripts summarizing key aspects of various closed-source Large Language Models (LLMs) and related platforms.
+- Identified the core functionalities, advantages, and disadvantages of models such as OpenAI's ChatGPT, Google's Gemini, and Anthropic's Claude.
+- Summarized the features and use cases of platforms like Perplexity and Poe, which build upon these underlying LLMs.
+- Understood the integration of OpenAI's technology into Microsoft's Copilot across various Microsoft 365 applications.
+- Noted the specific capabilities of Copilot within Word, PowerPoint, Outlook, and Excel, as well as the introduction of Copilot GPTs.
+- Reviewed GitHub Copilot as an AI-powered tool for programmers and its potential impact on coding efficiency.
+- Synthesized the overall value proposition of Microsoft Copilot and its associated subscription models, comparing it to free alternatives.
+- Compiled a summary of the key learnings regarding the discussed closed-source LLMs and their respective platforms.
+
+**Resources**:
+
+- [day5 notes.ipynb](./notes/day5.ipynb)
