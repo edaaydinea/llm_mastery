@@ -54,8 +54,7 @@ Learn to master the latest in Large Language Models (LLMs) including ChatGPT, Ge
 
 ## Day 3: Prompt Engineering: Effective Use of LLMs in the Standard Interface
 
-
-**What I did today:** 
+**What I did today:**
 
 - Gained an understanding of the fundamental principles of prompt engineering, applicable across various Large Language Models (LLMs).
 - Identified common LLM interfaces such as ChatGPT, Hugging Chat, Copilot, and Gemini, noting their shared basic functionalities.
