@@ -14,6 +14,7 @@ Learn to master the latest in Large Language Models (LLMs) including ChatGPT, Ge
   - [Day 4: LLM Customization: System Prompts, Memory, RAG \& Creating Expert Models or GPTs](#day-4-llm-customization-system-prompts-memory-rag--creating-expert-models-or-gpts)
   - [Day 5: Closed-Sourse LLMs: An Overview of Available Models and how to use them](#day-5-closed-sourse-llms-an-overview-of-available-models-and-how-to-use-them)
   - [Day 6: APIs of Closed-Source LLMs](#day-6-apis-of-closed-source-llms)
+  - [Day 7: Open-Source LLMs: Available Models and Their Use in the Claude \& Locally](#day-7-open-source-llms-available-models-and-their-use-in-the-claude--locally)
 
 ## Day 1: How LLMs Work: Parameters, Weights, Inference, Neural Networks and More
 
@@ -137,3 +138,23 @@ Concluded that the OpenAI API currently offers a strong combination of model qua
 **Resources:**
 
 - [day6 notes.ipynb](./notes/day6.ipynb)
+
+## Day 7: Open-Source LLMs: Available Models and Their Use in the Claude & Locally
+
+- Gained a comprehensive understanding of open-source Large Language Models (LLMs), including their benefits such as cost-effectiveness, local/cloud deployment flexibility, and customization options like fine-tuning and creating uncensored versions.
+- Explored the Hugging Face platform as a central hub for accessing a vast repository of open-source models, datasets, and essential libraries (Transformers, Datasets, Tokenizers), and understood its role in democratizing AI.
+- Investigated Hugging Chat as a free, cloud-based interface for interacting with diverse open-source LLMs, noting its ChatGPT-like UI, function calling capabilities (web search, image generation), and the ability to create custom AI assistants.
+- Learned about Groq and its innovative Language Processing Unit (LPU) technology, which enables exceptionally fast inference speeds for LLMs, offering low-latency interactions with various open-source models.
+- Understood the process and hardware requirements (GPU, CPU, RAM, CUDA) for running LLMs locally, highlighting LM Studio as a user-friendly application for downloading and managing local models.
+- Practically explored using open-source models like Llama 3, Mistral, and Phi-3 within LM Studio, including model discovery, download, and configuration of inference parameters.
+- Analyzed the concepts of bias and censorship in LLMs, and learned how uncensored fine-tuned models like "Dolphin" versions of Llama 3 offer unrestricted responses, emphasizing the importance of responsible use.
+- Successfully learned to set up a local HTTP server using LM Studio, exposing downloaded LLMs through an OpenAI-compatible API for custom application development, with example code provided.
+- Gained insights into the process of fine-tuning open-source LLMs using Hugging Face AutoTrain and Google Colab, considering the associated costs, time commitment, and the alternative of leveraging pre-fine-tuned models.
+- Reviewed the capabilities of Grok by xAI, noting its large context window and multimodal strengths, while also understanding the practical limitations of running its open-source version (Grok-1) locally due to its size.
+- Received an update on Llama 3.1, highlighting its strong performance across its 8B, 70B, and 405B parameter models, its accessibility via cloud APIs (including Groq's fast API), and local execution options with Ollama.
+- Learned about the DeepSeek-R1 model, its "Test-Time Compute" feature for enhanced reasoning, its open-source MIT license, and the availability of distilled versions rivaling OpenAI-o1-mini.
+- Consolidated understanding of the open-source LLM landscape, emphasizing the value of local execution for data privacy and uncensored access, and previewed future topics including Ollama and advanced application development.
+
+**Resources:**
+
+- [day7 notes.ipynb](./notes/day7.ipynb)
