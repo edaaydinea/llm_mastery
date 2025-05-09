@@ -15,6 +15,7 @@ Learn to master the latest in Large Language Models (LLMs) including ChatGPT, Ge
   - [Day 5: Closed-Sourse LLMs: An Overview of Available Models and how to use them](#day-5-closed-sourse-llms-an-overview-of-available-models-and-how-to-use-them)
   - [Day 6: APIs of Closed-Source LLMs](#day-6-apis-of-closed-source-llms)
   - [Day 7: Open-Source LLMs: Available Models and Their Use in the Claude \& Locally](#day-7-open-source-llms-available-models-and-their-use-in-the-claude--locally)
+  - [Day 8: First Steps to Creating Your Own Apps via APIs in Google Colab](#day-8-first-steps-to-creating-your-own-apps-via-apis-in-google-colab)
 
 ## Day 1: How LLMs Work: Parameters, Weights, Inference, Neural Networks and More
 
@@ -141,6 +142,8 @@ Concluded that the OpenAI API currently offers a strong combination of model qua
 
 ## Day 7: Open-Source LLMs: Available Models and Their Use in the Claude & Locally
 
+**What I did today:**
+
 - Gained a comprehensive understanding of open-source Large Language Models (LLMs), including their benefits such as cost-effectiveness, local/cloud deployment flexibility, and customization options like fine-tuning and creating uncensored versions.
 - Explored the Hugging Face platform as a central hub for accessing a vast repository of open-source models, datasets, and essential libraries (Transformers, Datasets, Tokenizers), and understood its role in democratizing AI.
 - Investigated Hugging Chat as a free, cloud-based interface for interacting with diverse open-source LLMs, noting its ChatGPT-like UI, function calling capabilities (web search, image generation), and the ability to create custom AI assistants.
@@ -158,3 +161,23 @@ Concluded that the OpenAI API currently offers a strong combination of model qua
 **Resources:**
 
 - [day7 notes.ipynb](./notes/day7.ipynb)
+
+## Day 8: First Steps to Creating Your Own Apps via APIs in Google Colab
+
+**What I did today:**
+
+- Successfully set up and utilized Google Colab as an interactive environment for executing Python code and interfacing with OpenAI APIs, including library installation and runtime configuration.
+- Gained foundational knowledge of GitHub as a code repository and community resource, including basic navigation and the process for account creation.
+- Mastered the core workflow for interacting with various OpenAI APIs, including obtaining and securely managing API keys, and referencing official documentation for implementation.
+- Implemented API calls for text generation with OpenAI models (e.g., GPT-4o), covering prompt engineering, model selection, and techniques for saving outputs, including leveraging ChatGPT for code refinement.
+- Integrated DALL-E 3 via the OpenAI API within Google Colab to programmatically generate images from text prompts, including enhancing code to display and download the generated images.
+- Utilized the OpenAI Text-to-Speech (TTS) API in Colab to convert text into natural-sounding audio, managing model and voice selection, and saving audio output as .mp3 files.
+- Employed the OpenAI Whisper API for speech-to-text transcription within Colab, including managing audio file uploads and correctly referencing file paths for API processing.
+- Explored OpenAI's Vision API capabilities using multimodal models (e.g., GPT-4o) in Colab to analyze and describe images provided via URLs.
+- Developed a comprehensive Google Colab notebook serving as a personal toolkit for interacting with multiple OpenAI API functionalities (text, image, TTS, speech-to-text, vision), reinforcing best practices like using API key placeholders and saving personal copies.
+- Acquired practical experience in troubleshooting API calls and enhancing code functionality with assistance from AI tools like ChatGPT.
+
+**Resources:**
+
+- [day8 notes.ipynb](./notes/day8.ipynb)
+- [day8 codes.ipynb](./codes/day8.ipynb)
