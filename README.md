@@ -16,6 +16,7 @@ Learn to master the latest in Large Language Models (LLMs) including ChatGPT, Ge
   - [Day 6: APIs of Closed-Source LLMs](#day-6-apis-of-closed-source-llms)
   - [Day 7: Open-Source LLMs: Available Models and Their Use in the Claude \& Locally](#day-7-open-source-llms-available-models-and-their-use-in-the-claude--locally)
   - [Day 8: First Steps to Creating Your Own Apps via APIs in Google Colab](#day-8-first-steps-to-creating-your-own-apps-via-apis-in-google-colab)
+  - [Day 9: Apps, Chatbots, and AI Agents: Build cool Stuff for Automation and FUN](#day-9-apps-chatbots-and-ai-agents-build-cool-stuff-for-automation-and-fun)
 
 ## Day 1: How LLMs Work: Parameters, Weights, Inference, Neural Networks and More
 
@@ -181,3 +182,36 @@ Concluded that the OpenAI API currently offers a strong combination of model qua
 
 - [day8 notes.ipynb](./notes/day8.ipynb)
 - [day8 codes.ipynb](./codes/day8.ipynb)
+
+## Day 9: Apps, Chatbots, and AI Agents: Build cool Stuff for Automation and FUN
+
+**What I did today:**
+
+- Gained a foundational understanding of AI agents, differentiating them from basic chatbots by their autonomous task performance, decision-making capabilities, and ability to interact with environments, often through a supervisor LLM coordinating sub-expert LLMs.
+- Explored the core components of AI agents, including Natural Language Processing (NLP), Large Language Models (LLMs), and vector databases, and identified their wide range of applications from customer service to autonomous systems.
+- Reviewed key development platforms and frameworks for AI agents, such as LangChain, FlowiseAI, LangFlow, and Vector Shift, with a focus on their usability and cost-effectiveness.
+- Acquired hands-on experience with Vector Shift, a no-code, cloud-based platform built on LangChain, by constructing a basic chatbot pipeline using input, OpenAI LLM, and output nodes.
+- Enhanced a simple Vector Shift chatbot to a Retrieval Augmented Generation (RAG) system by integrating a custom knowledge base, enabling it to answer questions based on uploaded data like PDFs or website content.
+- Investigated various methods for deploying Vector Shift RAG chatbots, including as standalone applications, embedded search bars or chat bubbles on websites (HTML, WordPress), and integrations with WhatsApp and Slack.
+- Designed a multi-LLM AI agent architecture in Vector Shift, where a classifier LLM routes user queries to specialized expert LLMs, each trained on distinct knowledge bases.
+- Transitioned from paid platforms to open-source tools, identifying LangChain as a core framework and FlowiseAI as a user-friendly alternative for creating AI agents with a drag-and-drop interface.
+- Successfully set up a local Flowise development environment using Node.js, including installation, starting the server, and understanding update processes.
+- Became proficient in navigating the Flowise UI, including creating chat/agent flows, utilizing the marketplace for templates, managing credentials, and integrating tools like SerpApi and assistants for function calling.
+- Developed a RAG chatbot within Flowise using the "Conversational Retrieval Q&A chain" template, integrating components like GPT-3.5 Turbo, Pinecone for vector storage, and OpenAI embeddings.
+- Leveraged the OpenAI Assistant API within Flowise to build a powerful AI assistant from scratch, equipping it with tools such as a calculator, web search (SerpApi), a code interpreter, and RAG capabilities via file search.
+- Installed Ollama for local LLM hosting, downloaded Llama 3, and successfully ran it on a local server, enabling private and cost-effective model usage.
+- Constructed a local RAG chatbot in Flowise using Llama 3 via Ollama for both chat model and embeddings, combined with an in-memory vector store and a Cheerio web scraper for document loading.
+- Developed multi-agent AI systems in Flowise, creating a "Supervisor-Worker" architecture for tasks like software development (Snake game example) and content creation (social media agent, math agent), assigning specific tools and different LLMs (OpenAI GPT-4o, local Ollama/Llama 3) to various workers.
+- Learned to run Flowise agent flows as standalone applications on a local computer using the "Share Chatbot" feature.
+- Mastered deploying Flowise to the cloud using Render, including forking the GitHub repository, configuring web services, and setting up environment variables and persistent disks for both free and paid plans.
+- Acquired skills in embedding Flowise chatbots into websites (HTML, WordPress, Shopify) using JavaScript snippets, with advanced customization of the chat bubble's appearance and behavior.
+- Explored advanced Flowise features, including viewing message history, enabling user feedback, setting starter prompts, implementing rate limits, integrating speech-to-text (OpenAI Whisper), capturing leads, and utilizing Flowise API endpoints with API keys.
+- Experimented with building a free chatbot in Flowise using open-source models (Mixtral 8x7B Instruct) via Hugging Face inference endpoints.
+- Significantly improved inference speed for local RAG chatbots and AI agents by integrating Groq's API for LLM inference (Llama 3), while retaining existing embedding solutions.
+- Recognized the value of the Flowise Marketplace for discovering pre-built chains and templates, such as If/Else logic and various agent systems, to accelerate development.
+- Briefly reviewed alternative AI agent frameworks like Microsoft's Autogen, CrewAI, and Agency Swarm, concluding that Flowise combined with Langchain offers a more practical solution for most users.
+- Consolidated overall learning on AI agents and chatbot development, covering definitions, platform exploration (VectorShift, Flowise), diverse chatbot creation (basic, RAG, multi-agent), local and cloud deployment, and advanced feature utilization.
+
+**Resources:**
+
+- [day9 notes.ipynb](./notes/day9.ipynb)
