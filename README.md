@@ -17,6 +17,9 @@ Learn to master the latest in Large Language Models (LLMs) including ChatGPT, Ge
   - [Day 7: Open-Source LLMs: Available Models and Their Use in the Claude \& Locally](#day-7-open-source-llms-available-models-and-their-use-in-the-claude--locally)
   - [Day 8: First Steps to Creating Your Own Apps via APIs in Google Colab](#day-8-first-steps-to-creating-your-own-apps-via-apis-in-google-colab)
   - [Day 9: Apps, Chatbots, and AI Agents: Build cool Stuff for Automation and FUN](#day-9-apps-chatbots-and-ai-agents-build-cool-stuff-for-automation-and-fun)
+  - [Day 10: LLM Security: Copyrights, Rights, Jailbreaks, and Prompt Injections](#day-10-llm-security-copyrights-rights-jailbreaks-and-prompt-injections)
+  - [Day 11: Comparison Test: What is the Best LLM?](#day-11-comparison-test-what-is-the-best-llm)
+  - [Day 12: Finetuning LLMs: OpenAI API and Google Colab](#day-12-finetuning-llms-openai-api-and-google-colab)
 
 ## Day 1: How LLMs Work: Parameters, Weights, Inference, Neural Networks and More
 
@@ -215,3 +218,34 @@ Concluded that the OpenAI API currently offers a strong combination of model qua
 **Resources:**
 
 - [day9 notes.ipynb](./notes/day9.ipynb)
+
+## Day 10: LLM Security: Copyrights, Rights, Jailbreaks, and Prompt Injections
+
+**What I did today:**
+
+- Gained a comprehensive understanding of critical Large Language Model (LLM) vulnerabilities, including diverse jailbreaking techniques (many-shot, zero-shot, prefix injection, obfuscated inputs, adversarial suffixes, visual methods), indirect prompt injection via external data sources, and data poisoning attacks during various training phases.
+- Explored the mechanisms behind LLM attacks, such as how hidden instructions in external content can override an LLM's original purpose, and how trigger-based behaviors can be embedded through corrupted training data.
+- Assessed the current landscape of copyright for AI-generated content, including OpenAI's "Copyright Shield" for specific users, Midjourney's ownership policies, Adobe Firefly's "commercially safe" design approach, and the user responsibilities associated with open-source models like Stable Diffusion.
+- Delved into data privacy considerations across various AI platforms, differentiating data usage policies for standard cloud-based LLMs (e.g., ChatGPT free/Plus, Bard, Copilot) versus more private options like enterprise plans, API access (OpenAI API), or locally hosted open-source models.
+- Investigated platform-specific rules regarding AI-generated content and critically evaluated the demonstrated unreliability of current AI detection tools, understanding the challenges this poses for content creators.
+- Studied core principles for ethical AI development and deployment, including transparency, fairness, non-maleficence, accountability, and privacy, and considered their application in areas like autonomous vehicles and business decision-making.
+- Recognized significant societal risks associated with AI, such as the amplification of existing biases from training data, potential for misuse in creating deepfakes or cyber-attacks, severe consequences of incorrect AI decisions in critical applications, and the concern of human skill degradation due to over-reliance.
+- Learned practical strategies for mitigating AI risks, such as scrutinizing LLM requests for personal information, verifying AI-generated content before commercial use, employing enhanced privacy options (APIs, local hosting) for sensitive data, and applying substantial human editing to AI-assisted content for restrictive platforms.
+- Acknowledged the dynamic "cat and mouse game" of AI security, underscoring the need for continuous vigilance, critical thinking, and adapting behavior based on new learnings in the evolving AI landscape.
+- Understood the expanding capabilities of LLMs, including function calling to integrate with external tools like diffusion models (e.g., DALL-E, Stable Diffusion) for multimedia generation, and the associated broadening of the attack surface and ethical considerations.
+
+**Resources:**
+
+- [day10 notes.ipynb](./notes/day10.ipynb)
+
+## Day 11: Comparison Test: What is the Best LLM?
+
+**What I did today:**
+
+**Resources:**
+
+## Day 12: Finetuning LLMs: OpenAI API and Google Colab
+
+**What I did today:**
+
+**Resources:**
