@@ -242,10 +242,26 @@ Concluded that the OpenAI API currently offers a strong combination of model qua
 
 **What I did today:**
 
+* Gained a comprehensive understanding that the "best" Large Language Model (LLM) is context-dependent, hinging on specific project goals, tasks, and data privacy requirements.
+* Learned to evaluate the critical role of data privacy in LLM selection, distinguishing between locally deployed open-source models for maximum data control and closed-source models accessed via API or enterprise accounts for enhanced privacy.
+* Understood the necessity of using open-source LLMs run on local infrastructure when absolute data privacy is paramount for handling confidential information.
+* Explored strategies for leveraging high-performance closed-source LLMs, such as OpenAI's GPT series, while mitigating data privacy risks through secure API interactions or enterprise-level agreements.
+* Identified key resources for LLM discovery and comparative analysis, including Chatbot Arena for performance rankings based on human preference and Hugging Face for accessing new and diverse models.
+* Assessed crucial factors for the practical selection and deployment of open-source LLMs, including hardware resource requirements, software licensing terms, and the consistent updates of models like Meta's Llama series.
+* Recognized that LLM performance is highly task-specific, requiring careful consideration of a model's strengths in areas like mathematical reasoning, coding, or creative writing, rather than relying on a single universal benchmark.
+* Learned that while LLMs with a very high number of parameters, such as Nvidia's Nemotron-4 340B, offer substantial capabilities, their selection must be balanced against significant hardware demands and specific licensing conditions.
+* Analyzed the fundamental trade-offs involved in choosing between open-source LLMs (offering greater privacy and control with potential resource overhead) and closed-source LLMs (providing cutting-edge capabilities and convenience with data handling considerations).
+* Developed an appreciation for evaluating LLMs by aligning their capabilities with specific use-case requirements and resource availability, rather than searching for an elusive single "best" model across all scenarios.
+* Acknowledged that for most general-purpose tasks, LLMs ranking among the top performers on reputable leaderboards are likely to be highly capable and sufficient for project needs.
+
 **Resources:**
+
+- [day11 notes.ipynb](./notes/day11.ipynb)
 
 ## Day 12: Finetuning LLMs: OpenAI API and Google Colab
 
 **What I did today:**
 
 **Resources:**
+
+- [day12 notes.ipynb](./notes/day12.ipynb)
